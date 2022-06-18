@@ -4,7 +4,7 @@
   "description": "My shared prettier config.",
   "main": "index.js",
   "scripts": {
-    "release": "npx np --no-tests --message `v%s`"
+    "release": "npx np --no-tests"
   },
   "repository": {
     "type": "git",
