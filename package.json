@@ -1,0 +1,26 @@
+{
+  "name": "@webbergreg/prettier-config",
+  "version": "2.1.0",
+  "description": "My shared prettier config.",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx np --no-tests --message `v%s`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickelMedia/prettier-config.git"
+  },
+  "author": "@webbergreg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickelMedia/prettier-config/issues"
+  },
+  "homepage": "https://github.com/NickelMedia/prettier-config#readme",
+  "devDependencies": {
+    "np": "^7.6.1",
+    "prettier": "^2.6.2"
+  },
+  "peerDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
