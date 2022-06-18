@@ -2,6 +2,9 @@
   "name": "@webbergreg/prettier-config",
   "version": "0.0.1",
   "description": "My shared prettier config.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "release": "npx np --no-tests"
